@@ -8,10 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A87B4F317BA9F3F003A4CC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A87B4F217BA9F3F003A4CC5 /* Foundation.framework */; };
-		8A87B50917BA9F8B003A4CC5 /* TWAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B50217BA9F8B003A4CC5 /* TWAPIManager.m */; };
-		8A87B50A17BA9F8B003A4CC5 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B50417BA9F8B003A4CC5 /* TWAppDelegate.m */; };
 		8A87B50B17BA9F8B003A4CC5 /* TWSignedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B50617BA9F8B003A4CC5 /* TWSignedRequest.m */; };
-		8A87B50C17BA9F8B003A4CC5 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B50817BA9F8B003A4CC5 /* TWViewController.m */; };
 		8A87B51517BA9FFB003A4CC5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B51017BA9FFB003A4CC5 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8A87B51617BA9FFB003A4CC5 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B51217BA9FFB003A4CC5 /* OAuth+Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8A87B51717BA9FFB003A4CC5 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A87B51417BA9FFB003A4CC5 /* OAuthCore.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -33,14 +30,8 @@
 		8A87B4EF17BA9F3F003A4CC5 /* libTWReverseAuthExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTWReverseAuthExample.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A87B4F217BA9F3F003A4CC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8A87B4F617BA9F3F003A4CC5 /* TWReverseAuthExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWReverseAuthExample-Prefix.pch"; sourceTree = "<group>"; };
-		8A87B50117BA9F8B003A4CC5 /* TWAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWAPIManager.h; path = "TWReverseAuthExample Source/Source/Classes/TWAPIManager.h"; sourceTree = "<group>"; };
-		8A87B50217BA9F8B003A4CC5 /* TWAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWAPIManager.m; path = "TWReverseAuthExample Source/Source/Classes/TWAPIManager.m"; sourceTree = "<group>"; };
-		8A87B50317BA9F8B003A4CC5 /* TWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWAppDelegate.h; path = "TWReverseAuthExample Source/Source/Classes/TWAppDelegate.h"; sourceTree = "<group>"; };
-		8A87B50417BA9F8B003A4CC5 /* TWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWAppDelegate.m; path = "TWReverseAuthExample Source/Source/Classes/TWAppDelegate.m"; sourceTree = "<group>"; };
 		8A87B50517BA9F8B003A4CC5 /* TWSignedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWSignedRequest.h; path = "TWReverseAuthExample Source/Source/Classes/TWSignedRequest.h"; sourceTree = "<group>"; };
 		8A87B50617BA9F8B003A4CC5 /* TWSignedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWSignedRequest.m; path = "TWReverseAuthExample Source/Source/Classes/TWSignedRequest.m"; sourceTree = "<group>"; };
-		8A87B50717BA9F8B003A4CC5 /* TWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWViewController.h; path = "TWReverseAuthExample Source/Source/Classes/TWViewController.h"; sourceTree = "<group>"; };
-		8A87B50817BA9F8B003A4CC5 /* TWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWViewController.m; path = "TWReverseAuthExample Source/Source/Classes/TWViewController.m"; sourceTree = "<group>"; };
 		8A87B50F17BA9FFB003A4CC5 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		8A87B51017BA9FFB003A4CC5 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		8A87B51117BA9FFB003A4CC5 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
@@ -106,14 +97,8 @@
 		8A87B50017BA9F7F003A4CC5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				8A87B50117BA9F8B003A4CC5 /* TWAPIManager.h */,
-				8A87B50217BA9F8B003A4CC5 /* TWAPIManager.m */,
-				8A87B50317BA9F8B003A4CC5 /* TWAppDelegate.h */,
-				8A87B50417BA9F8B003A4CC5 /* TWAppDelegate.m */,
 				8A87B50517BA9F8B003A4CC5 /* TWSignedRequest.h */,
 				8A87B50617BA9F8B003A4CC5 /* TWSignedRequest.m */,
-				8A87B50717BA9F8B003A4CC5 /* TWViewController.h */,
-				8A87B50817BA9F8B003A4CC5 /* TWViewController.m */,
 				8A87B50E17BA9FFA003A4CC5 /* ABOAuthCore */,
 			);
 			name = Source;
@@ -184,10 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A87B50917BA9F8B003A4CC5 /* TWAPIManager.m in Sources */,
-				8A87B50A17BA9F8B003A4CC5 /* TWAppDelegate.m in Sources */,
 				8A87B50B17BA9F8B003A4CC5 /* TWSignedRequest.m in Sources */,
-				8A87B50C17BA9F8B003A4CC5 /* TWViewController.m in Sources */,
 				8A87B51517BA9FFB003A4CC5 /* NSData+Base64.m in Sources */,
 				8A87B51617BA9FFB003A4CC5 /* OAuth+Additions.m in Sources */,
 				8A87B51717BA9FFB003A4CC5 /* OAuthCore.m in Sources */,
@@ -293,6 +275,7 @@
 				8A87B4FF17BA9F3F003A4CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
